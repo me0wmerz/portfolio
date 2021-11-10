@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #192A51;
+  line-height: 1.5;
+}
+
+.myMainHeading {
+  font-size: xx-large;
+  text-align: center;
+  color: #967AA1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.generalHeadings {
+  font-size: x-large;
+  text-align: center;
+  color: #AAA1C8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.generalText {
+  font-size: large;
+  text-align: center;
+  color: #D5C6E0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* portfolio project images */
+
+.run-buddy {
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+.led-wall {
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.react-calc {
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.pastel-puzzles {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.surf-report {
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+/* end portfolio project images */
+
+@media screen and (max-width: 950px) {
+  .myMainHeading {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .generalHeadings {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+  .generalTxt {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 6vw;
+  }
+  header nav {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myContainer {
+    width: 100%;
+  }
+  .myMainHeading {
+    font-size: 14px;
+  }
+  .generalHeadings {
+    font-size: 12px;
+  }
+  .generalTxt {
+    font-size: 10px;
+  }
