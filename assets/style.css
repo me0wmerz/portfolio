@@ -63,7 +63,7 @@ body {
     margin-bottom: 10px;
     font-size: 10vw;
   }
-  .generalTxt {
+  .generalText {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
@@ -84,6 +84,7 @@ body {
   .generalHeadings {
     font-size: 12px;
   }
-  .generalTxt {
+  .generalText {
     font-size: 10px;
   }
+}
