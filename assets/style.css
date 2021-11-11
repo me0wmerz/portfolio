@@ -27,30 +27,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* portfolio project images */
-
-.run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
-}
-
-.led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
-}
-
-.react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
-}
-
-.pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
-}
-
-.surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
-}
-
-/* end portfolio project images */
-
 @media screen and (max-width: 950px) {
   .myMainHeading {
     padding: 0 0 10px 0;
